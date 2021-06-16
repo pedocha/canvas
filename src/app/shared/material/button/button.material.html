@@ -1,0 +1,8 @@
+<button mat-button [class]="{ 'mat-icon-button': icon !== null }" [color]="color" [type]="type"
+    (click)="clicked.emit($event)">
+
+    <material-icon *ngIf="icon">{{ icon }}</material-icon>
+
+    <ng-content></ng-content>
+
+</button>

@@ -1,0 +1,14 @@
+<mat-drawer-container autosize>
+
+
+    <mat-drawer mode="side" [opened]="opened">
+
+        <ng-content select="[drawer]"></ng-content>
+
+    </mat-drawer>
+
+
+    <ng-content></ng-content>
+
+
+</mat-drawer-container>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "canvas-c4082": {
+      "hosting": {
+        "canvas": [
+          "canvas-c4082"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "canvas-dc427"
+  }
+}
